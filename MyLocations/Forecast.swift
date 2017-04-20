@@ -2,8 +2,11 @@
 //  Forecast.swift
 //  MyLocations
 //
-
+//  Created by mac on 4/21/17.
+//  Copyright © 2017 damneed. All rights reserved.
 //
+
+
 
 import UIKit
 import Alamofire
@@ -84,3 +87,5 @@ extension Date {
         return dateFormatter.string(from: self)
     }
 }
+
+

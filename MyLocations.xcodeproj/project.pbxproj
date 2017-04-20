@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04DA3C971EA7EFC60065CF02 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA3C961EA7EFC60065CF02 /* Forecast.swift */; };
-		04DA3C991EA7EFFE0065CF02 /* constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA3C981EA7EFFE0065CF02 /* constant.swift */; };
-		04DA3C9B1EA7F0320065CF02 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA3C9A1EA7F0320065CF02 /* CurrentWeather.swift */; };
 		04DA3C9F1EA7F2850065CF02 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DA3C9E1EA7F2850065CF02 /* Alamofire.framework */; };
 		04DA3CA11EA7F39E0065CF02 /* Location2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA3CA01EA7F39E0065CF02 /* Location2.swift */; };
 		04DA3CA31EA807D40065CF02 /* FirstViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA3CA21EA807D30065CF02 /* FirstViewConroller.swift */; };
+		04DA3CB01EA96E230065CF02 /* CurrentWeathera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA3CAF1EA96E230065CF02 /* CurrentWeathera.swift */; };
+		04DA3CB21EA96E370065CF02 /* constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA3CB11EA96E370065CF02 /* constant.swift */; };
+		04DA3CB81EA96ED40065CF02 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA3CB71EA96ED40065CF02 /* Forecast.swift */; };
 		BB0776E24A106F5F8B7F9902 /* Pods_MyLocations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD70EAB6CAE29FEE2745BB9 /* Pods_MyLocations.framework */; };
 		BF2A60391E7A2BCA00565653 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2A60371E7A2BCA00565653 /* Location+CoreDataClass.swift */; };
 		BF2A603A1E7A2BCA00565653 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2A60381E7A2BCA00565653 /* Location+CoreDataProperties.swift */; };
@@ -29,12 +29,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04DA3C961EA7EFC60065CF02 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Forecast.swift; path = ../Forecast.swift; sourceTree = "<group>"; };
-		04DA3C981EA7EFFE0065CF02 /* constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = constant.swift; path = ../constant.swift; sourceTree = "<group>"; };
-		04DA3C9A1EA7F0320065CF02 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurrentWeather.swift; path = ../CurrentWeather.swift; sourceTree = "<group>"; };
 		04DA3C9E1EA7F2850065CF02 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/MyLocations-azqkrspaeivazpcwtqluogffarms/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		04DA3CA01EA7F39E0065CF02 /* Location2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location2.swift; sourceTree = "<group>"; };
 		04DA3CA21EA807D30065CF02 /* FirstViewConroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewConroller.swift; sourceTree = "<group>"; };
+		04DA3CAF1EA96E230065CF02 /* CurrentWeathera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeathera.swift; sourceTree = "<group>"; };
+		04DA3CB11EA96E370065CF02 /* constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constant.swift; sourceTree = "<group>"; };
+		04DA3CB71EA96ED40065CF02 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		0D4E57F2BCC168E9871D47F0 /* Pods-MyLocations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLocations.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyLocations/Pods-MyLocations.debug.xcconfig"; sourceTree = "<group>"; };
 		3CD70EAB6CAE29FEE2745BB9 /* Pods_MyLocations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLocations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		914058B6871F1E59EB259845 /* Pods-MyLocations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLocations.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyLocations/Pods-MyLocations.release.xcconfig"; sourceTree = "<group>"; };
@@ -70,10 +70,10 @@
 		04DA3C331EA7AB400065CF02 /* Weathera */ = {
 			isa = PBXGroup;
 			children = (
-				04DA3C9A1EA7F0320065CF02 /* CurrentWeather.swift */,
 				04DA3CA01EA7F39E0065CF02 /* Location2.swift */,
-				04DA3C981EA7EFFE0065CF02 /* constant.swift */,
-				04DA3C961EA7EFC60065CF02 /* Forecast.swift */,
+				04DA3CAF1EA96E230065CF02 /* CurrentWeathera.swift */,
+				04DA3CB71EA96ED40065CF02 /* Forecast.swift */,
+				04DA3CB11EA96E370065CF02 /* constant.swift */,
 			);
 			name = Weathera;
 			sourceTree = "<group>";
@@ -183,7 +183,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Yixin Xue";
+				ORGANIZATIONNAME = damneed;
 				TargetAttributes = {
 					BF431F041E5D726C00250FD5 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -277,19 +277,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF42A7891E660E7F0093A277 /* LocationDetailsViewController.swift in Sources */,
+				04DA3CB21EA96E370065CF02 /* constant.swift in Sources */,
 				BF42A7941E6A9D5B0093A277 /* DataModel.xcdatamodeld in Sources */,
 				04DA3CA11EA7F39E0065CF02 /* Location2.swift in Sources */,
+				04DA3CB81EA96ED40065CF02 /* Forecast.swift in Sources */,
 				BF3BF8CD1E7F9E3500A04341 /* LocationsViewController.swift in Sources */,
 				BF2A603A1E7A2BCA00565653 /* Location+CoreDataProperties.swift in Sources */,
-				04DA3C971EA7EFC60065CF02 /* Forecast.swift in Sources */,
 				BF3BF8D11E80754100A04341 /* LocationCell.swift in Sources */,
 				BF42A7911E68FA310093A277 /* Functions.swift in Sources */,
+				04DA3CB01EA96E230065CF02 /* CurrentWeathera.swift in Sources */,
 				BF431F091E5D726C00250FD5 /* AppDelegate.swift in Sources */,
 				BF2A60391E7A2BCA00565653 /* Location+CoreDataClass.swift in Sources */,
 				04DA3CA31EA807D40065CF02 /* FirstViewConroller.swift in Sources */,
 				BF431F0B1E5D726C00250FD5 /* CurrentLocationViewController.swift in Sources */,
-				04DA3C9B1EA7F0320065CF02 /* CurrentWeather.swift in Sources */,
-				04DA3C991EA7EFFE0065CF02 /* constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

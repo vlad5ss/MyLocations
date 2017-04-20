@@ -1,8 +1,9 @@
 //
-//  CurrentWeather.swift
+//  CurrentWeathera.swift
 //  MyLocations
 //
-
+//  Created by mac on 4/21/17.
+//  Copyright © 2017 damneed. All rights reserved.
 //
 
 import UIKit
@@ -87,4 +88,3 @@ class CurrentWeather {
         }
     }
 }
-

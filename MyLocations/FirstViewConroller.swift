@@ -2,8 +2,6 @@
 ////  FirstViewConroller.swift
 ////  MyLocations
 ////
-////  Created by mac on 4/20/17.
-////  Copyright © 2017 Yixin Xue. All rights reserved.
 ////
 //
 //import UIKit
